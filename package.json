@@ -1,0 +1,33 @@
+{
+  "name": "googleapplicationscripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test",
+    "webpack": "webpack && cd dist && clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikoIcardo/GoogleApplicationScripts.git"
+  },
+  "author": "Niko Icardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikoIcardo/GoogleApplicationScripts/issues"
+  },
+  "homepage": "https://github.com/NikoIcardo/GoogleApplicationScripts#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-loader": "^9.1.0",
+    "stripe": "^11.4.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.56"
+  }
+}
